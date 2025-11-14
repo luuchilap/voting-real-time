@@ -74,6 +74,7 @@ if __name__ == "__main__":
         .option("kafka.bootstrap.servers", "localhost:9092") \
         .option("subscribe", "votes_topic") \
         .option("startingOffsets", "earliest") \
+        .option("failOnDataLoss", "false") \
         .load() \
         .selectExpr("CAST(value AS STRING)") \
         .select(from_json(col("value"), vote_schema).alias("data")) \
