@@ -127,7 +127,7 @@ def create_tables(conn, cur):
 
     cur.execute("""
         CREATE TABLE IF NOT EXISTS votes (
-            voter_id VARCHAR(255) UNIQUE,
+            voter_id VARCHAR(255),
             candidate_id VARCHAR(255),
             voting_time TIMESTAMP,
             vote int DEFAULT 1,
