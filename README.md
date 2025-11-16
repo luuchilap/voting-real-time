@@ -421,11 +421,6 @@ main.py → voters_topic → voting.py → votes_topic → spark-streaming.py
 
 ---
 
-## Video Demo
-
-[![Realtime Voting System Data Engineering](https://img.youtube.com/vi/X-JnC9daQxE/0.jpg)](https://youtu.be/X-JnC9daQxE)
-
----
 
 ## Additional Configuration
 
@@ -505,20 +500,3 @@ realtime-voting-data-engineering/
     └── dashboard_image.png
 ```
 
----
-
-## License
-
-[Add your license information here]
-
----
-
-## Contributing
-
-[Add contribution guidelines here]
-
----
-
-## Author
-
-[Add author information here]
